@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
+*{
+    font-family: Roboto,sans-serif;
+}
+h1{
+
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.search>button{
+    outline: none;
+    border: none;
+}
+.search>input{
+    border-radius: 4px;
+    height: 22px;
+    width: 50%;
+}
+
+.weather{
+    margin-top: 30px;
+    padding: 10px 20px;
+    background: rgba(149 143 143 / 50%);
+    color: white;
+}
+.weather-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.weather-wrapper>div{
+    display: flex;
+}
+.weather-wrapper>div>h1{
+    margin: 0;
+    font-weight: 600;
+    font-size: 100px;
+    line-height: 83px;
+}
+.description-text, humidity{
+    padding: 0  20px;
+}
+.description>div{
+    display: flex;
+    align-items: center;
+}
+.description>div>span{
+    margin-left: 10px;
+
+}
