@@ -41,9 +41,9 @@ let weather = {
     },
 };
 
-document.querySelector(".search button").addEventListener("click", function () {
-    weather.search();
-});
+// document.querySelector(".search button").addEventListener("click", function () {
+//     weather.search();
+// });
 
 document
     .querySelector(".search-bar")
@@ -54,3 +54,5 @@ document
     });
 
 weather.fetchWeather("Yerevan");
+
+
